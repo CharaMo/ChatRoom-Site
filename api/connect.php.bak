@@ -1,0 +1,5 @@
+<?php
+session_start();
+$conn=mysqli_connect("localhost","root","","project2");
+mysqli_query($conn,"set names 'utf8'");
+?>
